@@ -54,7 +54,7 @@ function exerciseDog(arr, dogName, dogBreed)
   let results = [];
   for (let i = 0; i < arr.length; i++)
   {
-    results.push(arr[i(dogName, dogBreed)]);
+    results.push(arr[i]);
   }
   return results;
 }
