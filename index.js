@@ -49,7 +49,10 @@ let routine = [
   unleashDog
 ];
 
-function exerciseDog(dogName, dogBreed)
+let exerciseDog = function(dogName, dogBreed)
 {
-  
+  for (let i = 0; i < routine.length; i++)
+  {
+    routine[i](dogName, dogBreed);
+  }
 }
