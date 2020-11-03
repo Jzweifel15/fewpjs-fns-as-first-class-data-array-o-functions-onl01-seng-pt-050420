@@ -49,7 +49,7 @@ let routine = [
   unleashDog
 ];
 
-function exerciseDog(arr, dogName, dogBreed)
+function exerciseDog(arr)
 {
   let results = [];
   for (let i = 0; i < arr.length; i++)
