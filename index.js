@@ -51,8 +51,10 @@ let routine = [
 
 let exerciseDog = function(dogName, dogBreed)
 {
+  let results = [];
   for (let i = 0; i < routine.length; i++)
   {
-    routine[i](dogName, dogBreed);
+    results.push(routine[i](dogName, dogBreed));
   }
+  return results;
 }
